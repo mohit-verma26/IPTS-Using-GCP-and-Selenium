@@ -1,0 +1,20 @@
+steps:
+  # Step 1: Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/transportation-app-450511/transportation_app', '.']
+  
+  # Step 2: Push the Docker image to Google Container Registry (GCR)
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/transportation-app-450511/transportation_app']
+
+  # Step 3: Deploy to Compute Engine
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'compute'
+      - 'instances'
+      - 'update-container'
+      - 'instance-20250213-085405'
+      - '--zone=us-central1-f'
+      - '--container-image=gcr.io/transportation-app-450511/transportation_app'
+
+timeout: '1200s'

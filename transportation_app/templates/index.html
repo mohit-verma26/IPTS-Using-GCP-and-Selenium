@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligent Transportation System Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('{{ url_for("static", filename="images/background.webp") }}') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    
+    h1 {
+      font-size: 32px;
+      color: #0056b3;
+      margin: 10px 0;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .logo {
+      height: 80px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    
+    .dashboard {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    
+    .panel {
+      width: 30%;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .map-container {
+      width: 65%;
+    }
+    
+    h2 {
+      color: #0056b3;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    
+    #notifications, #vehicle-status {
+      padding: 10px;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+    }
+    
+    .vehicle-icon, .status-icon {
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    
+    #map {
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      height: 500px;
+    }
+    
+    .status-on-time {
+      color: green;
+    }
+    
+    .status-delayed {
+      color: red;
+    }
+    
+    .notification-panel {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+    
+    .notification-group {
+      margin-bottom: 8px;
+    }
+    
+    .notification-icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    
+    .notification-group p {
+      font-size: 14px;
+      color: #555;
+      margin: 4px 0;
+    }
+
+    .vehicle-status-entry {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.vehicle-status-entry span {
+  font-size: 14px;
+  color: #555;
+}
+
+.status-on-time {
+  color: green;
+}
+
+.status-delayed {
+  color: red;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <div class="header">
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="ITS Logo" class="logo">
+    <h1>Intelligent Transportation System Dashboard</h1>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="dashboard">
+      <!-- Left Panel: Notifications & Vehicle Status -->
+      <div class="panel">
+        <h2>Real-Time Notifications</h2>
+        <div id="notifications" class="notification-panel">
+          <p>Waiting for updates...</p>
+        </div>
+        
+        <h2>Vehicle Status</h2>
+        <div id="vehicle-status">
+          <p>No vehicles available.</p>
+        </div>
+      </div>
+
+      <!-- Right Panel: Google Map Display -->
+      <div class="map-container">
+        <h2>Real-Time Map</h2>
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Socket.IO client -->
+  <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+
+  <!-- Load Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwtChqt8koZnBFWEcPZwMdCr2o_YUEBbo&callback=initMap" async defer></script>
+
+  <!-- Main JavaScript -->
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,452 @@
+[
+    {
+        "speed": 108,
+        "lat": 51.50949287972901,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.14346583687307055,
+        "vehicle_id": 1,
+        "id": 1
+    },
+    {
+        "speed": 29,
+        "lat": 51.48109390004214,
+        "type": "bus",
+        "status": "delayed",
+        "lng": -0.11288941772017116,
+        "vehicle_id": 10,
+        "id": 10
+    },
+    {
+        "speed": 31,
+        "lat": 51.53,
+        "type": "bus",
+        "status": "on-time",
+        "lng": -0.15,
+        "vehicle_id": 11,
+        "id": 11
+    },
+    {
+        "speed": 25,
+        "lat": 51.514070851516294,
+        "type": "bus",
+        "status": "delayed",
+        "lng": -0.1,
+        "vehicle_id": 12,
+        "id": 12
+    },
+    {
+        "speed": 74,
+        "lat": 51.47186208099732,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.13732827529301678,
+        "vehicle_id": 13,
+        "id": 13
+    },
+    {
+        "speed": 41,
+        "lat": 51.528007541088265,
+        "type": "car",
+        "status": "on-time",
+        "lng": -0.1422996448899358,
+        "vehicle_id": 14,
+        "id": 14
+    },
+    {
+        "speed": 96,
+        "lat": 51.484703177804136,
+        "type": "bus",
+        "status": "delayed",
+        "lng": -0.14210381929361743,
+        "vehicle_id": 15,
+        "id": 15
+    },
+    {
+        "speed": 120,
+        "lat": 51.49509740378486,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.1419658483269459,
+        "vehicle_id": 16,
+        "id": 16
+    },
+    {
+        "speed": 41,
+        "lat": 51.52594578391334,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.14246979636095528,
+        "vehicle_id": 17,
+        "id": 17
+    },
+    {
+        "speed": 52,
+        "lat": 51.529439597919655,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.1,
+        "vehicle_id": 18,
+        "id": 18
+    },
+    {
+        "speed": 29,
+        "lat": 51.47,
+        "type": "bus",
+        "status": "delayed",
+        "lng": -0.10353006659305217,
+        "vehicle_id": 19,
+        "id": 19
+    },
+    {
+        "speed": 44,
+        "lat": 51.51164349181969,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.15,
+        "vehicle_id": 2,
+        "id": 2
+    },
+    {
+        "speed": 108,
+        "lat": 51.47161788279398,
+        "type": "train",
+        "status": "delayed",
+        "lng": -0.15,
+        "vehicle_id": 20,
+        "id": 20
+    },
+    {
+        "speed": 76,
+        "lat": 51.48196335126483,
+        "type": "car",
+        "status": "on-time",
+        "lng": -0.11344622801525092,
+        "vehicle_id": 21,
+        "id": 21
+    },
+    {
+        "speed": 60,
+        "lat": 51.508267540368244,
+        "type": "train",
+        "status": "on-time",
+        "lng": -0.14484652224373726,
+        "vehicle_id": 22,
+        "id": 22
+    },
+    {
+        "speed": 64,
+        "lat": 51.52713198649373,
+        "type": "train",
+        "status": "on-time",
+        "lng": -0.1405509422756076,
+        "vehicle_id": 23,
+        "id": 23
+    },
+    {
+        "speed": 106,
+        "lat": 51.50818784957591,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.1,
+        "vehicle_id": 24,
+        "id": 24
+    },
+    {
+        "speed": 59,
+        "lat": 51.47,
+        "type": "bus",
+        "status": "on-time",
+        "lng": -0.1033833902554386,
+        "vehicle_id": 25,
+        "id": 25
+    },
+    {
+        "speed": 84,
+        "lat": 51.52832365420408,
+        "type": "train",
+        "status": "delayed",
+        "lng": -0.10332066846634691,
+        "vehicle_id": 26,
+        "id": 26
+    },
+    {
+        "speed": 91,
+        "lat": 51.50263218017915,
+        "type": "train",
+        "status": "delayed",
+        "lng": -0.15,
+        "vehicle_id": 27,
+        "id": 27
+    },
+    {
+        "speed": 111,
+        "lat": 51.49146086538815,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.1,
+        "vehicle_id": 28,
+        "id": 28
+    },
+    {
+        "speed": 101,
+        "lat": 51.519858290632946,
+        "type": "bus",
+        "status": "on-time",
+        "lng": -0.12052850221265776,
+        "vehicle_id": 29,
+        "id": 29
+    },
+    {
+        "speed": 107,
+        "lat": 51.47967478149232,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.14801274593307126,
+        "vehicle_id": 3,
+        "id": 3
+    },
+    {
+        "speed": 20,
+        "lat": 51.478181756203064,
+        "type": "train",
+        "status": "delayed",
+        "lng": -0.14992274440185752,
+        "vehicle_id": 30,
+        "id": 30
+    },
+    {
+        "speed": 36,
+        "lat": 51.513268751879146,
+        "type": "car",
+        "lng": -0.10128010429519031,
+        "status": "delayed",
+        "vehicle_id": 31,
+        "id": 31
+    },
+    {
+        "speed": 96,
+        "lat": 51.5246258621302,
+        "type": "train",
+        "lng": -0.13647307113097404,
+        "status": "delayed",
+        "vehicle_id": 32,
+        "id": 32
+    },
+    {
+        "speed": 85,
+        "lat": 51.491231065723206,
+        "type": "bus",
+        "status": "delayed",
+        "lng": -0.1,
+        "vehicle_id": 33,
+        "id": 33
+    },
+    {
+        "speed": 45,
+        "lat": 51.517169305102726,
+        "type": "train",
+        "lng": -0.11326372856116886,
+        "status": "delayed",
+        "vehicle_id": 34,
+        "id": 34
+    },
+    {
+        "speed": 33,
+        "lat": 51.50571391837065,
+        "type": "car",
+        "status": "on-time",
+        "lng": -0.13831585656616205,
+        "vehicle_id": 35,
+        "id": 35
+    },
+    {
+        "speed": 23,
+        "lat": 51.47265661651019,
+        "type": "train",
+        "lng": -0.10843121638655619,
+        "status": "on-time",
+        "vehicle_id": 36,
+        "id": 36
+    },
+    {
+        "speed": 60,
+        "lat": 51.50864023314281,
+        "type": "train",
+        "lng": -0.10833878547301651,
+        "status": "delayed",
+        "vehicle_id": 37,
+        "id": 37
+    },
+    {
+        "speed": 51,
+        "lat": 51.53,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.11745670866344773,
+        "vehicle_id": 38,
+        "id": 38
+    },
+    {
+        "speed": 115,
+        "lat": 51.503543752547415,
+        "type": "car",
+        "status": "on-time",
+        "lng": -0.13855813447703172,
+        "vehicle_id": 39,
+        "id": 39
+    },
+    {
+        "speed": 90,
+        "lat": 51.53,
+        "type": "train",
+        "status": "delayed",
+        "lng": -0.1466441789318817,
+        "vehicle_id": 4,
+        "id": 4
+    },
+    {
+        "speed": 112,
+        "lat": 51.5246276083306,
+        "type": "train",
+        "status": "on-time",
+        "lng": -0.1,
+        "vehicle_id": 40,
+        "id": 40
+    },
+    {
+        "speed": 57,
+        "lat": 51.53,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.1409897943350085,
+        "vehicle_id": 41,
+        "id": 41
+    },
+    {
+        "speed": 94,
+        "lat": 51.52822810335234,
+        "type": "train",
+        "status": "on-time",
+        "lng": -0.10835093283987479,
+        "vehicle_id": 42,
+        "id": 42
+    },
+    {
+        "speed": 22,
+        "lat": 51.505781025653164,
+        "type": "bus",
+        "status": "delayed",
+        "lng": -0.1,
+        "vehicle_id": 43,
+        "id": 43
+    },
+    {
+        "speed": 104,
+        "lat": 51.53,
+        "type": "bus",
+        "lng": -0.15,
+        "status": "delayed",
+        "vehicle_id": 44,
+        "id": 44
+    },
+    {
+        "speed": 23,
+        "lat": 51.48238520643328,
+        "type": "car",
+        "status": "on-time",
+        "lng": -0.1140997219174385,
+        "vehicle_id": 45,
+        "id": 45
+    },
+    {
+        "speed": 87,
+        "lat": 51.53,
+        "type": "train",
+        "status": "delayed",
+        "lng": -0.10025561936453936,
+        "vehicle_id": 46,
+        "id": 46
+    },
+    {
+        "speed": 66,
+        "lat": 51.47,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.137662517732691,
+        "vehicle_id": 47,
+        "id": 47
+    },
+    {
+        "speed": 82,
+        "lat": 51.52378202961073,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.10487003305568192,
+        "vehicle_id": 48,
+        "id": 48
+    },
+    {
+        "speed": 110,
+        "lat": 51.525735701799334,
+        "type": "bus",
+        "status": "on-time",
+        "lng": -0.10633292495773705,
+        "vehicle_id": 49,
+        "id": 49
+    },
+    {
+        "speed": 57,
+        "lat": 51.498233055128594,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.11190355654706499,
+        "vehicle_id": 5,
+        "id": 5
+    },
+    {
+        "speed": 36,
+        "lat": 51.52909787021734,
+        "type": "bus",
+        "lng": -0.15,
+        "status": "on-time",
+        "vehicle_id": 50,
+        "id": 50
+    },
+    {
+        "speed": 99,
+        "lat": 51.511528500156004,
+        "type": "car",
+        "status": "on-time",
+        "lng": -0.10054474194321725,
+        "vehicle_id": 6,
+        "id": 6
+    },
+    {
+        "speed": 109,
+        "lat": 51.50963728543905,
+        "type": "car",
+        "lng": -0.15,
+        "status": "on-time",
+        "vehicle_id": 7,
+        "id": 7
+    },
+    {
+        "speed": 116,
+        "lat": 51.53,
+        "type": "car",
+        "status": "delayed",
+        "lng": -0.14756998009989727,
+        "vehicle_id": 8,
+        "id": 8
+    },
+    {
+        "speed": 80,
+        "lat": 51.51283132325597,
+        "type": "train",
+        "status": "on-time",
+        "lng": -0.14483876307199042,
+        "vehicle_id": 9,
+        "id": 9
+    }
+]
